@@ -22,7 +22,9 @@ private:
 
 int main()
 {
-    mailbox obj;
+    mailbox object1;
+    object1.setName("my first object");
+    cout << object1.name << endl;
     return 0;
 }
 
@@ -30,6 +32,7 @@ int main()
 
 mailbox::mailbox()
 {
+    amount = 10;
     cout<<"mailbox constructor executing.."<<endl;
 }
 
@@ -38,3 +41,17 @@ mailbox::~mailbox()
     cout<<"mailbox deconstructor executing.."<<endl;
 }
 
+void mailbox::setName(string s)
+{
+    cout<<"mailbox setName function"<<endl;
+    name = s;
+}
+
+void mailbox::addPost(void)
+{
+
+}
+void mailbox::takePost(void)
+{
+
+}
