@@ -1,0 +1,3 @@
+Tools =>options => Buil&run => default Build Properties
+
+./%{JS: Util.asciify("build/")}
