@@ -26,8 +26,11 @@ void myDeviceUI::uiShowMenu()
         cout << endl;
         cout << "choose"<< endl;
         cin >> menuitem;
+        cout<<"annoit merkin = "<< menuitem<<endl;
         switch(menuitem)
         {
+            case 0:
+                break;
             case 1:
                 uiSetMouseInformation();
                 break;
